@@ -1,9 +1,11 @@
 # Windows Restricted Traffic Limited Functionality Baseline
 #
-# First, install GPO:
+# First, install the Restricted Traffic Limited Functionality Baseline (for 2019 LTSC use 1809, Enterprise):
 # https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
-#
-# Then, go into the Local Group Policy Editor ("gpedit.msc") and make the below adjustments"
+# 
+# Tip: You must put the LGPO.exe file into the LGPO folder: https://www.microsoft.com/en-us/download/details.aspx?id=55319, for the above GPO install script to work.
+# 
+# Then, go into the Local Group Policy Editor ("gpedit.msc") and make the below adjustments manually:
 
 # Re-enable Windows Update:
 Administrative Templates\System\Internet Communication Management\Internet Communication settings
