@@ -1,4 +1,4 @@
-# Windows Restricted Traffic Limited Functionality Baseline
+# Windows Restricted Traffic Limited Functionality Baseline Tweaks v1.0
 #
 # First, install the Restricted Traffic Limited Functionality Baseline (for 2019 LTSC use 1809, Enterprise):
 # https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
@@ -14,6 +14,7 @@ Administrative Templates\System\Internet Communication Management\Internet Commu
 Administrative Templates\Windows Components\Windows Update
     Specify intranet Microsoft update service location (change from Enabled to Not Configured)
     Do not connect to any Windows Update Internet locations (change from Enabled to Not Configured)
+    Do not include drivers with Windows Updates (change from Not Configured to Enabled)
 
 # Allow user to enable webcam and microphones:
 Computer Configuration\Administrative Templates\Windows Components\App Privacy
@@ -35,3 +36,7 @@ Administrative Templates\Windows Components\Windows Defender Antivirus\Signature
 Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption
     Choose drive encryption method and cipher strength (Windows 10 (Version 1511) and later) (change from Not Configured to Enabled)
     Choose drive encryption method and cipher strength (Windows 10 (Version 1511) and later) (change encryption method for 'Operating System' and 'Fixed Data Drives' to "XTS-AES 256-bit")
+
+# Re-enable Windows Store (only if using Windows Store enabler)
+Computer Configuration\Administrative Templates\Windows Components\Store
+    Disable all apps from Microsoft Store (change from Disabled to Not Configured)
