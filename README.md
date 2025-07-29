@@ -1,5 +1,5 @@
 # Windows-LTSC-Tweaks
-Some textfiles with a selection of changes to better balance security and privacy.
+Some textfiles with a selection of changes to better balance security and privacy when applying the Restricted Traffic Limited Functionality Baseline.
 
 ## License
 Unless otherwise noted, the documentation and written content of this project are licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
