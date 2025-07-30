@@ -1,4 +1,4 @@
-# Windows-LTSC-Tweaks
+# Windows-RTLFB-Tweaks
 Some textfiles with a selection of changes to better balance security and privacy when applying the Restricted Traffic Limited Functionality Baseline ([RTLFB](https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services)).
 
 ## License
