@@ -1,5 +1,5 @@
 # Windows-RTLFB-Tweaks
-A quick reference of changes to better balance security and privacy when applying the Restricted Traffic Limited Functionality Baseline ([RTLFB](https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services)).
+A quick reference for tuning the Restricted Traffic Limited Functionality Baseline ([RTLFB](https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services)). These manual adjustments are designed to balance privacy settings with security.
 
 ## License
 Unless otherwise noted, the documentation and written content of this project are licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
