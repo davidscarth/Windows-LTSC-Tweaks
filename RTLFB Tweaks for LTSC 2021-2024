@@ -46,8 +46,11 @@ Computer Configuration\Administrative Templates\Windows Components\BitLocker Dri
     Choose drive encryption method and cipher strength (Windows 10 (Version 1511) and later) (change encryption method for 'Operating System' and 'Fixed Data Drives' to "XTS-AES 256-bit")
 # Misc tweaks, Windows 11 only:
 Administrative Templates\Windows Components\Windows AI
-    Allow recall to be enabled (change from Not Configured to Disabled)
+    Allow Recall to be enabled (change from Not Configured to Disabled)
 
-# Re-enable Windows Store (only if using Windows Store enabler)
+# Optional, Re-enable Windows Store if desired (run "wsreset -i" from elevated command prompt to install Windows Store after changes are applied)
 Computer Configuration\Administrative Templates\Windows Components\Store
     Disable all apps from Microsoft Store (change from Disabled to Not Configured)
+
+# Once finished, reboot or run the following command in an elevated command prompt to apply changes:
+    gpupdate /force
