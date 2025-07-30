@@ -20,7 +20,7 @@ Administrative Templates\Windows Components\Windows Update
     # Optional, this is a preference:
     Do not include drivers with Windows Updates (change from Not Configured to Enabled)
 
-# Re-enable Windows Defender Antivirus signature updates:
+# Re-enable Microsoft Defender Antivirus signature updates:
 Administrative Templates\Windows Components\Microsoft Defender Antivirus\Security Intelligence Updates
     Define file shares for downloading security intelligence updates (Enabled to Not Configured)
     Define the order of sources for downloading security intelligence updates (from Enabled to Not Configured)
