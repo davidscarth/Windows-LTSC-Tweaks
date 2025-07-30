@@ -1,7 +1,7 @@
 # Windows Restricted Traffic Limited Functionality Baseline Tweaks v1.0
 # for Windows 10 Enterprise LTSC 2021, Windows 11 Enterprise LTSC 2024
 #
-# First, install the Restricted Traffic Limited Functionality Baseline (for 2021 LTSC use 21H2_Win10, Enterprise. for 2024 LTSC use 24H2, Enterprise):
+# First, install the Restricted Traffic Limited Functionality Baseline (for 2021 LTSC use 21H2_Win10\Enterprise. for 2024 LTSC use 24H2\Enterprise):
 # https://docs.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
 # 
 # Tip: You must put the LGPO.exe file into the LGPO folder: https://www.microsoft.com/en-us/download/details.aspx?id=55319, for the above GPO install script to work.
