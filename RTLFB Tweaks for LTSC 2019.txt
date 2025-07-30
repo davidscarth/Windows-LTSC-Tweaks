@@ -34,7 +34,7 @@ Computer Configuration\Administrative Templates\Windows Components\App Privacy
     Let Windows apps access the camera (Enabled, change 'Default for all apps' from "Force Deny" to "User is in control")
     Let Windows apps access the microphone (Enabled, change 'Default for all apps' from "Force Deny" to "User is in control")
 
-# Misc tweaks:
+# Optional, Misc tweaks:
 Administrative Templates\Windows Components\Internet Explorer\Internet Control Panel\Advanced Page
     Allow third-party browser extensions (change from Not Configured to Disabled)
     Always send Do Not Track header (change from Not Configured to Enabled)
