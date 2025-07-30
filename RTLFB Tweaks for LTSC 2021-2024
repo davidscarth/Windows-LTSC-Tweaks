@@ -34,7 +34,7 @@ Computer Configuration\Administrative Templates\Windows Components\App Privacy
     Let Windows apps access the camera (Enabled, change 'Default for all apps' from "Force Deny" to "User is in control")
     Let Windows apps access the microphone (Enabled, change 'Default for all apps' from "Force Deny" to "User is in control")
 
-# Misc tweaks:
+# Optional, Misc tweaks:
 Administrative Templates\Windows Components\Internet Explorer\Internet Control Panel\Advanced Page
     Allow third-party browser extensions (change from Not Configured to Disabled)
     Always send Do Not Track header (change from Not Configured to Enabled)
@@ -44,7 +44,7 @@ Administrative Templates\Windows Components\Software Protection Platform
 Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption
     Choose drive encryption method and cipher strength (Windows 10 (Version 1511) and later) (change from Not Configured to Enabled)
     Choose drive encryption method and cipher strength (Windows 10 (Version 1511) and later) (change encryption method for 'Operating System' and 'Fixed Data Drives' to "XTS-AES 256-bit")
-# Misc tweaks, Windows 11 only:
+# Optional, Misc tweaks, Windows 11 only:
 Administrative Templates\Windows Components\Windows AI
     Allow Recall to be enabled (change from Not Configured to Disabled)
 
