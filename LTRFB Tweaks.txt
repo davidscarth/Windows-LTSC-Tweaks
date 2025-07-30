@@ -16,23 +16,27 @@ Administrative Templates\Windows Components\Windows Update
     Do not connect to any Windows Update Internet locations (change from Enabled to Not Configured)
     Do not include drivers with Windows Updates (change from Not Configured to Enabled)
 
+# Re-enable Windows Defender Antivirus signature updates:
+Administrative Templates\Windows Components\Windows Defender Antivirus\Signature Updates
+    Define file shares for downloading definition updates (Enabled to Not Configured)
+    Define the order of sources for downloading definition updates (from Enabled to Not Configured)
+
+# Turn time auto-update capability back on:
+Administrative Templates\System\Windows Time Service\Time Providers
+    Enable Windows NTP Client (change from Disabled to Enabled)
+
 # Allow user to enable webcam and microphones:
 Computer Configuration\Administrative Templates\Windows Components\App Privacy
     Let Windows apps access the camera (Enabled, change 'Default for all apps' from "Force Deny" to "User is in control")
     Let Windows apps access the microphone (Enabled, change 'Default for all apps' from "Force Deny" to "User is in control")
-    
+
 # Misc tweaks:
-Administrative Templates\System\Windows Time Service\Time Providers
-    Enable Windows NTP Client (change from Disabled to Enabled)
 Administrative Templates\Windows Components\Internet Explorer\Internet Control Panel\Advanced Page
     Allow third-party browser extensions (change from Not Configured to Disabled)
     Always send Do Not Track header (change from Not Configured to Enabled)
     Turn on Enhanced Protected Mode (change from Not Configured to Enabled)
 Administrative Templates\Windows Components\Software Protection Platform
     Control Device Reactivation for Retail devices (change from Not Configured to Disabled)
-Administrative Templates\Windows Components\Windows Defender Antivirus\Signature Updates
-    Define file shares for downloading definition updates (Enabled to Not Configured)
-    Define the order of sources for downloading definition updates (from Enabled to Not Configured)
 Computer Configuration\Administrative Templates\Windows Components\BitLocker Drive Encryption
     Choose drive encryption method and cipher strength (Windows 10 (Version 1511) and later) (change from Not Configured to Enabled)
     Choose drive encryption method and cipher strength (Windows 10 (Version 1511) and later) (change encryption method for 'Operating System' and 'Fixed Data Drives' to "XTS-AES 256-bit")
